@@ -1,5 +1,269 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+}
+
+.btnlogin {
+    background: linear-gradient(to left, #1F97C0, #12AD8B);
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    display: block;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.iconburger {
+    display: none;
+}
+
+.btnimg {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.divp {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.back {
+    display: block;
+}
+
+.img {
+    display: none;
+}
+
+.div2 {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.div3 {
+    background: linear-gradient(to left, #12AD8B, #1F97C0);
+    width: fit-content;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+button {
+    background-color: #05ecba;
+    padding: 5px 20px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+input {
+    padding: 5px 10px;
+    padding-right: 50px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.section {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.div4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pname {
+    width: 450px;
+}
+
+.pname2 {
+    width: 500px;
+}
+
+.div777 {
+    width: 466px;
+    font-size: 22px;
+}
+
+.section1 {
+    background-color: #E8F2FC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.section2 {
+    max-width: 1300px;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.img2 {
+    width: 100%;
+}
+
+.img3 {
+    display: none;
+}
+
+.section4 {
+    background: linear-gradient(to right, #12AD8B, #1F97C0);
+    color: white;
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding: 80px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.div5{
+    width: 600px;
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.imgposition{
+    position: absolute;
+    left: 950px;
+    bottom: 0px;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .iconburger {
+        display: block;
+        width: 20px;
+    }
+
+    .btnimg {
+        display: none;
+    }
+
+    .divp {
+        display: none;
+    }
+
+    .btnlogin {
+        display: none;
+    }
+
+    .back {
+        display: none;
+    }
+
+    .navbar {
+        width: 90%;
+    }
+
+    .img {
+        display: block;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .section {
+        width: 90%;
+        padding: 10px 0px;
+    }
+
+    .div2 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .div4 {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px 30px;
+    }
+
+    .pname {
+        width: 100%;
+    }
+
+    input {
+        width: 80%;
+        padding: 15px 30px;
+    }
+
+    .pname2 {
+        width: 100%;
+    }
+
+    .section1 {
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .div777 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .section2 {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .img3 {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .img2 {
+        display: none;
+    }
+    .imgposition{
+        display: none;
+    }
+    .section4{
+        width: 80%; 
+        padding: 30px;
+    }
+    .div5{
+        width: 100%;
+    }
 }
