@@ -160,6 +160,118 @@ input {
     left: 950px;
     bottom: 0px;
 }
+.imgposition1{
+    position: absolute;
+    left: 750px;
+    bottom: 0px;
+}
+.div6{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.div7{
+    background-color: #EAF3FD;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.section5{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px ;
+}
+.img5{
+    display: none;
+}
+.section6{
+    max-width: 1300px;
+    margin: auto;
+    padding: 50px 0px;
+}
+.contaner{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    grid-template-rows: repeat(2,200px);
+    max-width: 1300px;
+    margin: auto;
+    gap: 30px;
+    margin-top: 30px;
+}
+.divgrid{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #EAF3FD;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.div8{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btn1mec{
+    background-color: #11AE88;
+    color: white;
+    padding: 5px 60px ;
+}
+.btn3612{
+    border: 1px solid gray;
+    padding: 5px 60px ;
+    background-color: transparent;
+    color: black;
+}
+.divbtn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    overflow: auto;
+}
+.section7{
+    max-width: 1300px;
+    margin: auto;
+    padding: 50px 0px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: 210px;
+    gap: 30px;
+}
+.div9{
+    box-shadow: 0px 0px 10px #95f3ec;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.divbutton{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.divbutton1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.btnpop{
+    background: linear-gradient(to left, #12AD8B, #1F97C0);
+}
+.btnpod{
+    border: 1px solid #11AE88;
+    background: transparent;
+    color: black;
+}
 
 
 
@@ -265,5 +377,37 @@ input {
     }
     .div5{
         width: 100%;
+    }
+    .section5{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div6{
+        width: 100%;
+    }
+    .img4{
+        display: none;
+    }
+    .img5{
+        display: block;
+        margin-top: 20px;
+    }
+    .contaner{
+        grid-template-columns: 350px;
+        grid-template-rows: repeat(6,200px);
+    }
+    .section6{
+        width: 90%;
+    }
+    .section7{
+        width: 90%;
+    }
+    .grid{
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3,260px);
+    }
+    .imgposition1{
+        display: none;
     }
 }
