@@ -154,6 +154,7 @@ input {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-left: 30px;
 }
 .imgposition{
     position: absolute;
@@ -409,5 +410,8 @@ input {
     }
     .imgposition1{
         display: none;
+    }
+    .div5{
+        padding-left: 10px;
     }
 }
