@@ -1,3 +1,7 @@
+import React from 'react'
+import Card from './companent/card'
+import Button from './companent/Button'
+import user from './assets/image.png'
 import logo from './assets/7 (2).svg'
 import logo1 from './assets/7 (3).svg'
 import text from './assets/Аналитика и оцифровка продаж Wildberries и Ozon.png'
@@ -15,6 +19,9 @@ import "./style/App.css"
 const App = () => {
   return (
     <div>
+      <Card img={user} name="My card" about="I am Abdulloh i am learning react" color={"red"}>
+      <Button />
+      </Card>
       <nav className='navbar'>
         <img className='img' src={logo1} alt="" />
         <div className='btnimg'>
