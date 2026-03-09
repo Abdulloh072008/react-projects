@@ -15,6 +15,15 @@ import Section1img from './content/Section1img'
 import Section2 from './content/Section2'
 import Section2text from './content/Section2text'
 import Section2btn from './content/Section2btn'
+import Section3 from './content/Section3'
+import Section3text from './content/Section3text'
+import Divbutton from './content/Divbutton'
+import Button3 from './content/Button3'
+import Buttonfood from './content/Buttonfood'
+import Divbtn from './content/Divbtn'
+import Seaction3img from './content/Seaction3img'
+import Div from './content/Div'
+import Divtext from './content/Divtext'
 
 const App = () => {
   return (
@@ -52,6 +61,37 @@ const App = () => {
           <Greenbutton  name="Рассчитать рацион" />
         </div>
       </Section2>
+
+      <Section3>
+          <Section3text />
+          <Divbutton name="Калорийность" about="Норма калорий позволяет достигать цели. Как расчитать? На сайте есть калькулятор">
+            <Button3 name={<>900 ккал <br /> <span className='text-[13px]'>3 блюда</span></>} />
+            <Button3 name={<>1 250 ккал  <br /> <span className='text-[13px]'>4 блюда</span></>} />
+            <Button3 name={<>1 600 ккал  <br /> <span className='text-[13px]'>5 блюда</span></>} />
+            <Button3 name={<>2 050 ккал  <br /> <span className='text-[13px]'>6 блюда</span></>} />
+            <Button3 name={<>индивидуально  <br /> <span className='text-[13px]'>подобрать</span></>} />
+          </Divbutton>
+          <Divbutton name="Продолжительность">
+            <Button3 name={<>Пробные 2 дня <br /> <span className='text-[13px]'>за 2 900 ₽</span></>} />
+            <Button3 name={<>1 неделя  <br /> <span className='text-[13px]'>1 700 ₽ в день</span></>} />
+            <Button3 name={<>2 недели  <br /> <span className='text-[13px]'>1 600 ₽ в день</span></>} />
+            <Button3 name={<>3 недели  <br /> <span className='text-[13px]'>1 520 ₽ в день</span></>} />
+            <Button3 name={<>4 недели  <br /> <span className='text-[13px]'>1 450 ₽  в день</span></>} />
+          </Divbutton>
+          <Divbtn name="Пример недельного рациона" about="6 блюд. Калорийность — 1 235 ккал. Белки — 103 г; жиры — 37 г; углеводы — 120 г">
+            <Buttonfood name="понедельник"/>
+            <Buttonfood name="понедельник"/>
+            <Buttonfood name="понедельник"/>
+            <Buttonfood name="понедельник"/>
+            <Buttonfood name="понедельник"/>
+            <Buttonfood name="понедельник"/>
+          </Divbtn>
+          <Seaction3img />
+          <Div name="1 250 ккал за 1 600 ₽ в день">
+            <Greenbutton name="Заказать 10 дней питания за 16 000 ₽" />
+            <Divtext />
+          </Div>
+      </Section3>
     </div>
   )
 }
