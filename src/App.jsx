@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "./style/App.css"
 import Nav from './content/Nav'
 import Navbar from './content/Navbar'
